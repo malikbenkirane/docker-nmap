@@ -1,6 +1,6 @@
 # nmap container image
 
-A Docker container for Nmap (20.5 MB).
+A container image for Nmap (20.5 MB).
 
 ## Docker image usage
 
