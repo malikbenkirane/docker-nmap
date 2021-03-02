@@ -1,7 +1,7 @@
-FROM gliderlabs/alpine
-MAINTAINER Vlatko Kosturjak kost@kost.im
+FROM alpine
+MAINTAINER Malik Benkirane freemalikbenkirane@gmail.com
 
-RUN apk --update add nmap && rm -f /var/cache/apk/*
+RUN apk add nmap && rm -f /var/cache/apk/*
 
 RUN mkdir /work
 VOLUME ["/work"]
